@@ -20,6 +20,11 @@ function theBeatlesPlay() {
 
 
 function johnLennonFacts() {
+  const facts = ["He was the last Beatle to learn to drive",
+              "He was never a vegetarian",
+              "He was a choir boy and boy scout",
+              "He hated the sound of his own voice"];
+  var shoutFacts = [];
   var i = 0;
   while (i < facts.length) {
     shoutFacts.push(facts[i] + "!!!");
@@ -29,11 +34,6 @@ function johnLennonFacts() {
 }
 
 function iLoveTheBeatles(num) {
-  const facts = ["He was the last Beatle to learn to drive",
-              "He was never a vegetarian",
-              "He was a choir boy and boy scout",
-              "He hated the sound of his own voice"];
-  var shoutFacts = [];
   var love = [];
   do {
     love.push("I love the Beatles!");
