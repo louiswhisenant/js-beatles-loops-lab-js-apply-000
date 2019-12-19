@@ -28,7 +28,7 @@ function theBeatlesPlay() {
 
 function johnLennonFacts() {
   var i = 0;
-  while (i <= facts.length) {
+  while (i < facts.length) {
     shoutFacts.push(facts[i] + "!!!");
   }
   return shoutFacts;
