@@ -20,11 +20,11 @@ function theBeatlesPlay() {
 
 
 function johnLennonFacts() {
-  const facts = ["He was the last Beatle to learn to drive",
+  var facts = ["He was the last Beatle to learn to drive",
               "He was never a vegetarian",
               "He was a choir boy and boy scout",
-              "He hated the sound of his own voice",
-              "foo",
+              "He hated the sound of his own voice"];
+              ["foo",
               "bar"];
   var shoutFacts = [];
   var i = 0;
